@@ -51,11 +51,11 @@ export default function Gallery() {
                     )
                 })
             }
-            <button className="bg-transparent w-9/12 self-center hover:bg-yellow-500 text-yellow-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded mb-60" onClick={handleOnClick}>REFRESH</button>
+            <button className="bg-transparent w-9/12 self-center hover:bg-yellow-500 text-yellow-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded mb-60" onClick={handleOnClick}>NEXT</button>
         </div>
     ) :
     (
-        <div className="flex flex-wrap gap-44 justify-center">
+        <div className="flex flex-wrap gap-44 justify-center mb-60">
             {
                 waifus && waifus.map(waifu => {
                     return (
